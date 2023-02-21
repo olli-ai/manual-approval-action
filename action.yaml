@@ -30,4 +30,5 @@ inputs:
     default: ''
 runs:
   using: docker
-  image: docker://ghcr.io/trstringer/manual-approval:1.9.0
+  #image: docker://ghcr.io/trstringer/manual-approval:1.9.0
+  image: docker://harbor.jenkins-x-viettel.iviet.com/sys/manual-approval:1.9.0
